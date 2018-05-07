@@ -1,0 +1,230 @@
+body {
+  padding: 20px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-color: black;
+  margin: 10px 0;
+}
+
+th, td {
+  padding: 10px;
+  margin: 5px;
+}
+
+th {
+  background-color: dimgray;
+  color: white;
+}
+
+select {
+  transition: 0.3s ease-in-out;
+  outline: 0;
+}
+
+input {
+  outline: 0;
+  transition: 0.3s ease-in-out;
+}
+
+input:hover, input:active, select:hover, select:active {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 4px #5D5F60;
+}
+
+#buttons input[type = button] {
+  font-size: 20px;
+  margin: 2px;
+}
+
+#color {
+  background-color: background: #00ee00; /* Old browsers */
+background: -moz-linear-gradient(left, #00ee00 0%, #ff3030 27%, #28a2ff 48%, #fffb89 72%, #868ef9 97%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #00ee00 0%,#ff3030 27%,#28a2ff 48%,#fffb89 72%,#868ef9 97%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #00ee00 0%,#ff3030 27%,#28a2ff 48%,#fffb89 72%,#868ef9 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ee00', endColorstr='#868ef9',GradientType=1 ); /* IE6-9 */
+}
+
+select {
+  height: 1.9em;
+  outline: 0;
+  cursor: pointer;
+}
+
+#calculator input[type=button] {
+  padding: 10px 20px;
+  margin-left: 70px;
+  font-weight: bold;
+}
+
+#calculator input[type=number]:nth-child(3) {
+  color: #000000;
+}
+
+#bigList, #buttons {
+  float: left;
+}
+
+#output {
+  border: 1px solid #000000;
+  padding: 5px;
+}
+
+#myForm {
+  border: 1px solid #000000;
+  padding: 5px;
+}
+
+hr {
+  border-top: 1px solid #cccccc;
+}
+
+.box {
+  display: inline-block;
+  border: 1px solid #000000;
+  margin: 5px 10px;
+  padding: 25px 5px;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#dragMe {
+  background-color: limegreen;
+}
+
+.btn {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#start {
+  background-color: darkseagreen;
+  outline: 0;
+  transition: 0.3s ease-in-out;
+}
+
+#stop {
+  background-color: indianred;
+  outline: 0;
+  transition: 0.3s ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0;
+}
+
+h4 span {
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #000000;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#instructions p {
+  font-style: italic;
+  float: left;
+}
+
+#instructions h5 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#instruments {
+  text-align: center;
+}
+
+#instruments img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  margin: 5px 40px;
+}
+
+#instruments img:hover {
+  background-color: orange;
+}
+
+#instruments p {
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+#artists img {
+  width: 130px;
+  height: 130px;
+  margin: 10px 15px;
+  border: 1px solid black;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+#artists img:hover {
+  background: orange;
+  cursor: pointer;
+}
+
+#artists p {
+  font-weight: 600;
+  margin: 26px auto;
+  text-align: center;
+}
+
+#artists {
+  visibility: hidden;
+  float:left;
+}
+
+#instruments {
+  visibility: hidden;
+  float: left;
+  padding-bottom: 50px;
+}
+
+#hintBtn {
+  background-color: #000000;
+  color: indianred;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: pulse 3s infinite;
+  margin: 40px 43%;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #000000;
+  }
+  50% {
+    background-color: indianred;
+    color: #ffffff;
+  }
+  100% {
+    background-color: #000000;
+  }
+}
+
+#hintBtn img {
+  width: 50%;
+  height: 50%;
+}
+
+
+
+
+
+

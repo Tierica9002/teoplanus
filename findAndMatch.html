@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Complete JavaScript Course</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="container">
+  <div class="col-md-12">
+    <h1>Game - "Find &amp; Match"
+      <input type="button" class='btn' id='start' value="Start">
+      <input type="button" class='btn' id='stop' value="Stop">
+    </h1>
+    <h4 id='msg1'>Welcome!</h4>
+    <h6 id='msg2'>Click "Start" to begin the game of all time...</h6>
+    <h6 id='msg3'></h6>
+    <br>
+  </div>
+  <div id='outcome' class="col-sm-12">
+
+  </div>
+  <div id="instructions" class="col-md-6">
+    <h5>Instructions:</h5>
+    <p>Goal is to clear all the boxes on the board by matching the given artist name name with the hidden name in each box.
+      <br> You have 3 lives in total and 3 seconds for each (each time the countdown reaches 0, 1 life is depleted).
+      <br>
+      <br> The game continues once you have found all the names. Part II is about dragging an artist's portrait to his / her
+      corresponding instrument.
+    </p>
+  </div>
+  <div id='artists' class='col-md-12'>
+    <p>- Artists -</p>
+    <img class="guitarist" src="media/hetfield.jpeg" title="Guitarist">
+    <img class="guitarist" src="media/malmsteen.jpg" title="Guitarist">
+    <img class="bassist" src="media/trujillo.jpg" title="Bassist">
+    <img class="guitarist" src="media/hammet.jpg" title="Guitarist">
+    <img class="drummer" src="media/lars.jpg" title="Drummer">
+    <img class="vocalist" src="media/halford.jpg" title="Vocalist">
+    <img class="guitarist" src="media/heafy.jpg" title="Guitarist">
+    <img class="bassist" src="media/lemmy.jpg" title="Bassist">
+    <img class="vocalist" src="media/ozzy.jpg" title="Vocalist">
+  </div>
+  <div id='instruments' class='col-md-12'>
+    <p>- Drag the artists' portrait over their corresponding instrument -</p>
+    <img id="guitar" src="img/guitar.svg">
+    <img id="drums" src="img/drums.svg">
+    <img id="mic" src="img/mic.svg">
+    <img id="bass" src="img/bass.svg">
+  </div>
+  <script src="scripts/findAndMatch.js"></script>
+</body>
